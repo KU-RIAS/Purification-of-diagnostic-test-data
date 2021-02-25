@@ -1,0 +1,11 @@
+certifi==2020.12.5
+chardet==4.0.0
+numpy==1.19.5
+pandas==1.2.0
+parmap==1.5.2
+pymssql==2.1.5
+pyodbc==4.0.30
+python-dateutil==2.8.1
+pytz==2020.5
+six==1.15.0
+wincertstore==0.2
