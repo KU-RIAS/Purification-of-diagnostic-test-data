@@ -1,5 +1,5 @@
 """
-The address of program developer's e-mail : yajumo93@gmail.com
+Developer's e-mail address: yajumo93@gmail.com
 """
 
 import re
