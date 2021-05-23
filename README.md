@@ -16,13 +16,30 @@
 ### - 데이터 정제에 사용되는 filter 수정  
 #
 
-## Quick start
+## 사용법
 
 conda 환경 추천
 
 python version = 3.8
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
+
+#
+
+Data 디렉토리의 config.ini 파일 설정
+
+* [Database] 항목의 요소들은 터치하지 말것 (데이터베이스 연동 미구현)
+* [data] 항목의 chunk_size는 한번에 처리할 행의 갯수 설정
+
+#
+
+Data/Filter 디렉토리의 filters.csv 파일 확인
+
+* column명을 변경하지 말것
+
+#
+
+Data/Input 디렉토리의 INPUT.csv 파일 확인
 
 
 
