@@ -16,6 +16,8 @@
 ### - 데이터 정제에 사용되는 filter 수정  
 #
 
+![Alt text](/Purification-of-diagnostic-test-data/p1.png)
+
 ## 사용 방법
 
 conda 환경 추천
