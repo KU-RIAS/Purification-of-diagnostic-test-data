@@ -26,7 +26,7 @@ python version = 3.8
 
 #
 
-### 1. 데이터 정제 (run.py)
+### 1-1. 데이터 정제 (run.py)
 
 Data 디렉토리의 config.ini 파일 설정
 
@@ -58,6 +58,22 @@ Data/Input 디렉토리의 INPUT.csv 파일 확인
     python run.py -c ./Data/config.ini -d False 
 
 생성되는 결과는 Data/Output에 저장됨
+
+
+### 1-2. filter 내용
+
+적용되는 순서: 왼쪽 컬럼에서 오른쪽 컬럼으로, 각 컬럼은 위에서 아래 순서로 적용.
+
+필터 내용은 기본적인 문자열과 정규표현식을 지원.
+
+필터에 공백을 사용시, 필터링 된 내용의 저장될 모습을 정할 수 있다.
+예를들어 l/kg를 필터링하여 L/kg로 저장하고 싶은 경우,
+필터에 l/kg L/kg 형태로 입력.
+
+
+
+
+
 
 
 
