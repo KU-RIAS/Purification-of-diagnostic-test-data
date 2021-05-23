@@ -65,6 +65,8 @@ Data/Input 디렉토리의 INPUT.csv 파일 확인
 
 적용되는 순서: 왼쪽 컬럼에서 오른쪽 컬럼으로, 각 컬럼은 위에서 아래 순서로 적용.
 
+컬럼 명에서 pm은 partially match / fm은 fully match의 의미로 작성. 
+
 필터 내용은 기본적인 문자열과 정규표현식을 지원.
 
 추가적으로 특별한 약속 구현(공백, |기호)
@@ -94,11 +96,16 @@ case3. 응용
 
 또는으로 걸러진 내용에 대해 저장 형태 지정: ab|ab[+]|a|a[+]|b|b[+]|o|o+ AB AB+ A A+ B B+ O O+
 
+#
 
+### 1-3 output data에 대한 검증(verify.py)
 
+    python verify.py
 
+위 코드를 통해 Data/Output 디렉토리에 존재하는 output data에 대한 결과 검증 데이터를 생성해줌.
+결과는 Data/Verify 디렉토리에 저장됨.
 
-
+생성된 데이터를 참고하여 filter를 조정
 
 
 
