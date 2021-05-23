@@ -16,7 +16,7 @@
 ### - 데이터 정제에 사용되는 filter 수정  
 #
 
-## 사용법
+## 사용 방법
 
 conda 환경 추천
 
@@ -25,6 +25,8 @@ python version = 3.8
     pip install -r requirements.txt
 
 #
+
+### 1. 데이터 정제 (run.py)
 
 Data 디렉토리의 config.ini 파일 설정
 
@@ -39,8 +41,19 @@ Data/Filter 디렉토리의 filters.csv 파일 확인
 
 #
 
+Data/Output 디렉토리가 비어있는지 확인
+
+* input 파일을 정제할때 output 디렉토리는 비어있어야 함
+
+#
+
 Data/Input 디렉토리의 INPUT.csv 파일 확인
 
+* 여러개의 input file을 넣어도 됨 (input1.csv, inputA.csv, inputZ.csv ....)
+
+#
+
+    python run.py 
 
 
 
