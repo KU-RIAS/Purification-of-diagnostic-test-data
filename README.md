@@ -53,7 +53,11 @@ Data/Input 디렉토리의 INPUT.csv 파일 확인
 
 #
 
-    python run.py 
+실행 코드
+
+    python run.py -c ./Data/config.ini -d False 
+
+생성되는 결과는 Data/Output에 저장됨
 
 
 
