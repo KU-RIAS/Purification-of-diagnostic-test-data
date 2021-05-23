@@ -16,7 +16,7 @@
 ### - 데이터 정제에 사용되는 filter 수정  
 #
 
-![Alt text](/Purification-of-diagnostic-test-data/p1.png)
+![p1](https://user-images.githubusercontent.com/55372995/119267703-b5391f00-bc2a-11eb-93fd-68ab35761795.png)
 
 ## 사용 방법
 
